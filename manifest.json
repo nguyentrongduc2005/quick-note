@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Notion quick note",
+    "version": "1.0",
+    "description": "take quick notes in Notion",
+    "permissions": [
+        "storage"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "image/pencil128.png",
+            "48": "image/pencil128.png",
+            "128": "image/pencil128.png"
+        }
+    },
+    "icons": {
+        "16": "image/pencil128.png",
+        "48": "image/pencil128.png",
+        "128": "image/pencil128.png"
+    },
+    "host_permissions": [
+        "https://api.notion.com/*"
+    ]
+}

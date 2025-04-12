@@ -1,0 +1,70 @@
+/* Đặt font mặc định và thiết lập nền */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f5f5f5;
+    padding: 20px;
+    margin: 0;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+/* Tiêu đề */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Input và Textarea */
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    background-color: #fff;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    border-color: #7c3aed;
+    /* tím pastel */
+    outline: none;
+}
+
+/* Nút gửi */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #7c3aed;
+    /* tím pastel đẹp */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #6b21a8;
+}
+
+/* Thông báo trạng thái */
+#status {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: green;
+}
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #9ca3af;
+}
